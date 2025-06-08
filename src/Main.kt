@@ -1,3 +1,5 @@
+import VariablesAndTypes.Person.Person
+
 //    COMMIT 용 주석
 
 fun main() {
@@ -13,11 +15,10 @@ fun main() {
     number3 = null
 
 
-    var person = Person("임채동")
+    var person = Person("임채동", 100)
 
 }
 
-annotation class Person(val value: String)
 
 fun startsWithA1(str: String?): Boolean {
 //    if (str == null) {
